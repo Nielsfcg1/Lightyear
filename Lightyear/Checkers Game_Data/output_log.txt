@@ -1,0 +1,47 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+    Driver:   23.21.13.8813
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.407 seconds
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Drive downloads\Lightyear\GDD 4\Builds\Windows\Presentatie Build V2.0\Checkers Game_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on DataTracker
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initialized touch support.
+UnloadTime: 1.102221 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 10c8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.603358 ms
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 0.584347 ms (FindLiveObjects: 0.057816 ms CreateObjectMapping: 0.034318 ms MarkObjects: 0.391110 ms  DeleteObjects: 0.100173 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.620170 ms
+
+Unloading 187 unused Assets to reduce memory usage. Loaded Objects now: 814.
+Total: 1.708520 ms (FindLiveObjects: 0.032154 ms CreateObjectMapping: 0.021024 ms MarkObjects: 0.281970 ms  DeleteObjects: 1.373061 ms)
+

@@ -1,0 +1,971 @@
+fileFormatVersion: 2
+guid: d611df5731cba4d4dbe6004030c348a8
+timeCreated: 1485421196
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_IK_L
+    100002: Arm_IK_R
+    100004: Armature_Female
+    100006: //RootNode
+    100008: Head
+    100010: Leg_IK_L
+    100012: Leg_IK_R
+    100014: LowerArm_L
+    100016: LowerArm_R
+    100018: LowerLeg_L
+    100020: LowerLeg_R
+    100022: Torso
+    100024: Torso_001
+    100026: UpperArm_L
+    100028: UpperArm_R
+    100030: UpperLeg_L
+    100032: UpperLeg_R
+    100034: Woman
+    400000: Arm_IK_L
+    400002: Arm_IK_R
+    400004: Armature_Female
+    400006: //RootNode
+    400008: Head
+    400010: Leg_IK_L
+    400012: Leg_IK_R
+    400014: LowerArm_L
+    400016: LowerArm_R
+    400018: LowerLeg_L
+    400020: LowerLeg_R
+    400022: Torso
+    400024: Torso_001
+    400026: UpperArm_L
+    400028: UpperArm_R
+    400030: UpperLeg_L
+    400032: UpperLeg_R
+    400034: Woman
+    4300000: Woman
+    7400000: Default Take
+    7400002: ChoiceStanding
+    7400004: F_IdleFloatingAnimation
+    7400006: F_IdleStandingAnimation
+    7400008: F_JumpingTileAnimation
+    7400010: F_JumpLandingAnimation
+    7400012: F_SwipeEaseInAnimation_L-R
+    7400014: F_SwipeEaseInAnimation_R-L
+    7400016: F_SwipeEaseOutAnimation_L-R
+    7400018: F_SwipeEaseOutAnimation_R-L
+    7400020: F_TileSwipeAnimation
+    7400022: F_TileSwipeIdleAnimation
+    7400024: F_TileSwipeStopAnimation
+    7400026: M_IdleFloatingAnimation
+    7400028: M_IdleStandingAnimation
+    7400030: M_JumpingTileAnimation
+    7400032: M_JumpLandingAnimation
+    7400034: M_MainPose
+    7400036: M_SwipeEaseInAnimation_L-R
+    7400038: M_SwipeEaseInAnimation_R-L
+    7400040: M_SwipeEaseOutAnimation_L-R
+    7400042: M_SwipeEaseOutAnimation_R-L
+    7400044: M_TileSwipeAnimation
+    7400046: M_TileSwipeIdleAnimation
+    7400048: M_TileSwipeStopAnimation
+    9500000: //RootNode
+    13700000: Woman
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChoiceStanding
+      takeName: ChoiceStanding
+      firstFrame: -1
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_IdleFloatingAnimation
+      takeName: F_IdleFloatingAnimation
+      firstFrame: -1
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_IdleStandingAnimation
+      takeName: F_IdleStandingAnimation
+      firstFrame: -1
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_JumpingTileAnimation
+      takeName: F_JumpingTileAnimation
+      firstFrame: -1
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_JumpLandingAnimation
+      takeName: F_JumpLandingAnimation
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_SwipeEaseInAnimation_L-R
+      takeName: F_SwipeEaseInAnimation_L-R
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_SwipeEaseInAnimation_R-L
+      takeName: F_SwipeEaseInAnimation_R-L
+      firstFrame: -1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_SwipeEaseOutAnimation_L-R
+      takeName: F_SwipeEaseOutAnimation_L-R
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_SwipeEaseOutAnimation_R-L
+      takeName: F_SwipeEaseOutAnimation_R-L
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_TileSwipeAnimation
+      takeName: F_TileSwipeAnimation
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_TileSwipeIdleAnimation
+      takeName: F_TileSwipeIdleAnimation
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: F_TileSwipeStopAnimation
+      takeName: F_TileSwipeStopAnimation
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Female
+        weight: 1
+      - path: Armature_Female/Arm_IK_L
+        weight: 1
+      - path: Armature_Female/Arm_IK_R
+        weight: 1
+      - path: Armature_Female/Leg_IK_L
+        weight: 1
+      - path: Armature_Female/Leg_IK_R
+        weight: 1
+      - path: Armature_Female/Torso
+        weight: 1
+      - path: Armature_Female/Torso/Head
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/Torso_001/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R
+        weight: 1
+      - path: Armature_Female/Torso/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Woman
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

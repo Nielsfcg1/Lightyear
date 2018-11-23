@@ -1,0 +1,1505 @@
+fileFormatVersion: 2
+guid: 65055ccb8862541408c8177631a69da3
+timeCreated: 1485416136
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_Ik.L
+    100002: Arm_Ik.L_end
+    100004: Arm_Ik.R
+    100006: Arm_Ik.R_end
+    100008: Armature_Male
+    100010: Elbow.L
+    100012: Elbow.L_end
+    100014: Elbow.R
+    100016: Elbow.R_end
+    100018: //RootNode
+    100020: Head
+    100022: Head_end
+    100024: LowerArm.L
+    100026: LowerArm.L_end
+    100028: LowerArm.R
+    100030: LowerArm.R_end
+    100032: LowerLeg.L
+    100034: LowerLeg.L.001
+    100036: LowerLeg.L.001_end
+    100038: LowerLeg.L_end
+    100040: LowerLeg.R
+    100042: LowerLeg.R.001
+    100044: LowerLeg.R.001_end
+    100046: LowerLeg.R_end
+    100048: Man
+    100050: Torso
+    100052: Torso.001
+    100054: UpperArm.L
+    100056: UpperArm.R
+    100058: UpperLeg.L
+    100060: UpperLeg.R
+    400000: Arm_Ik.L
+    400002: Arm_Ik.L_end
+    400004: Arm_Ik.R
+    400006: Arm_Ik.R_end
+    400008: Armature_Male
+    400010: Elbow.L
+    400012: Elbow.L_end
+    400014: Elbow.R
+    400016: Elbow.R_end
+    400018: //RootNode
+    400020: Head
+    400022: Head_end
+    400024: LowerArm.L
+    400026: LowerArm.L_end
+    400028: LowerArm.R
+    400030: LowerArm.R_end
+    400032: LowerLeg.L
+    400034: LowerLeg.L.001
+    400036: LowerLeg.L.001_end
+    400038: LowerLeg.L_end
+    400040: LowerLeg.R
+    400042: LowerLeg.R.001
+    400044: LowerLeg.R.001_end
+    400046: LowerLeg.R_end
+    400048: Man
+    400050: Torso
+    400052: Torso.001
+    400054: UpperArm.L
+    400056: UpperArm.R
+    400058: UpperLeg.L
+    400060: UpperLeg.R
+    4300000: Man
+    7400000: Armature_Male|Action
+    7400002: Armature_Male|ChoiceStanding
+    7400004: Armature_Male|M_IdleFloatingAnimation
+    7400006: Armature_Male|M_IdleStandingAnimation
+    7400008: Armature_Male|M_JumpingTileAnimation
+    7400010: Armature_Male|M_JumpLandingAnimation
+    7400012: Armature_Male|M_MainPose
+    7400014: Armature_Male|M_SwipeEaseInAnimation_L-R
+    7400016: Armature_Male|M_SwipeEaseInAnimation_R-L
+    7400018: Armature_Male|M_SwipeEaseOutAnimation_L-R
+    7400020: Armature_Male|M_SwipeEaseOutAnimation_R-L
+    7400022: Armature_Male|M_TileSwipeAnimation
+    7400024: Armature_Male|M_TileSwipeIdleAnimation
+    7400026: Armature_Male|M_TileSwipeStopAnimation
+    7400028: Armature_Male|Untitled
+    9500000: //RootNode
+    13700000: Man
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature_Male|Action
+      takeName: Armature_Male|Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|ChoiceStanding
+      takeName: Armature_Male|ChoiceStanding
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_IdleFloatingAnimation
+      takeName: Armature_Male|M_IdleFloatingAnimation
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_IdleStandingAnimation
+      takeName: Armature_Male|M_IdleStandingAnimation
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_JumpingTileAnimation
+      takeName: Armature_Male|M_JumpingTileAnimation
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_JumpLandingAnimation
+      takeName: Armature_Male|M_JumpLandingAnimation
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_MainPose
+      takeName: Armature_Male|M_MainPose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_SwipeEaseInAnimation_L-R
+      takeName: Armature_Male|M_SwipeEaseInAnimation_L-R
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_SwipeEaseInAnimation_R-L
+      takeName: Armature_Male|M_SwipeEaseInAnimation_R-L
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_SwipeEaseOutAnimation_L-R
+      takeName: Armature_Male|M_SwipeEaseOutAnimation_L-R
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_SwipeEaseOutAnimation_R-L
+      takeName: Armature_Male|M_SwipeEaseOutAnimation_R-L
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_TileSwipeAnimation
+      takeName: Armature_Male|M_TileSwipeAnimation
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_TileSwipeIdleAnimation
+      takeName: Armature_Male|M_TileSwipeIdleAnimation
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|M_TileSwipeStopAnimation
+      takeName: Armature_Male|M_TileSwipeStopAnimation
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Male|Untitled
+      takeName: Armature_Male|Untitled
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Male
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L
+        weight: 1
+      - path: Armature_Male/Arm_Ik.L/Arm_Ik.L_end
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R
+        weight: 1
+      - path: Armature_Male/Arm_Ik.R/Arm_Ik.R_end
+        weight: 1
+      - path: Armature_Male/Elbow.L
+        weight: 1
+      - path: Armature_Male/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature_Male/Elbow.R
+        weight: 1
+      - path: Armature_Male/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001
+        weight: 1
+      - path: Armature_Male/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Armature_Male/Torso
+        weight: 1
+      - path: Armature_Male/Torso/Head
+        weight: 1
+      - path: Armature_Male/Torso/Head/Head_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature_Male/Torso/Torso.001/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature_Male/Torso/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Man
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
